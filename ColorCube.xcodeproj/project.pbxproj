@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB1019F5EBD212C5DF9FB90D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1019F5EBD212C5DF9FB90C /* UIKit.framework */; };
+		BB1019F5EBD212C5DF9FB90F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1019F5EBD212C5DF9FB90E /* Foundation.framework */; };
+		BB1019F5EBD212C5DF9FB911 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1019F5EBD212C5DF9FB910 /* CoreGraphics.framework */; };
+		BB1019F5EBD212C5DF9FB917 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB1019F5EBD212C5DF9FB916 /* InfoPlist.strings */; };
+		BB1019F5EBD212C5DF9FB919 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1019F5EBD212C5DF9FB918 /* main.m */; };
+		BB1019F5EBD212C5DF9FB91D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1019F5EBD212C5DF9FB91C /* AppDelegate.m */; };
+		BB1019F5EBD212C5DF9FB920 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1019F5EBD212C5DF9FB91F /* ViewController.m */; };
+		BB1019F5EBD212C5DF9FB923 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB1019F5EBD212C5DF9FB922 /* ViewController.xib */; };
+		BB1019F5EBD212C5DF9FB926 /* test@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB1019F5EBD212C5DF9FB925 /* test@2x.jpg */; };
+		BB1019F5EBD212C5DF9FB928 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1019F5EBD212C5DF9FB927 /* CoreImage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB1019F5EBD212C5DF9FB903 /* ColorCube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorCube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1019F5EBD212C5DF9FB90C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB1019F5EBD212C5DF9FB90E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB1019F5EBD212C5DF9FB910 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB1019F5EBD212C5DF9FB914 /* ColorCube-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "ColorCube-Info.plist"; sourceTree = "<group>"; };
+		BB1019F5EBD212C5DF9FB915 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB1019F5EBD212C5DF9FB918 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB1019F5EBD212C5DF9FB91A /* ColorCube-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorCube-Prefix.pch"; sourceTree = "<group>"; };
+		BB1019F5EBD212C5DF9FB91B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB1019F5EBD212C5DF9FB91C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB1019F5EBD212C5DF9FB91E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB1019F5EBD212C5DF9FB91F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BB1019F5EBD212C5DF9FB921 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BB1019F5EBD212C5DF9FB925 /* test@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "test@2x.jpg"; sourceTree = "<group>"; };
+		BB1019F5EBD212C5DF9FB927 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB1019F5EBD212C5DF9FB909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1019F5EBD212C5DF9FB90D /* UIKit.framework in Frameworks */,
+				BB1019F5EBD212C5DF9FB90F /* Foundation.framework in Frameworks */,
+				BB1019F5EBD212C5DF9FB911 /* CoreGraphics.framework in Frameworks */,
+				BB1019F5EBD212C5DF9FB928 /* CoreImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB1019F5EBD212C5DF9FB8FF = {
+			isa = PBXGroup;
+			children = (
+				BB1019F5EBD212C5DF9FB900 /* Products */,
+				BB1019F5EBD212C5DF9FB90B /* Frameworks */,
+				BB1019F5EBD212C5DF9FB912 /* ColorCube */,
+				BB1019F5EBD212C5DF9FB924 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		BB1019F5EBD212C5DF9FB900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB1019F5EBD212C5DF9FB903 /* ColorCube.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB1019F5EBD212C5DF9FB90B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB1019F5EBD212C5DF9FB927 /* CoreImage.framework */,
+				BB1019F5EBD212C5DF9FB910 /* CoreGraphics.framework */,
+				BB1019F5EBD212C5DF9FB90E /* Foundation.framework */,
+				BB1019F5EBD212C5DF9FB90C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB1019F5EBD212C5DF9FB912 /* ColorCube */ = {
+			isa = PBXGroup;
+			children = (
+				BB1019F5EBD212C5DF9FB922 /* ViewController.xib */,
+				BB1019F5EBD212C5DF9FB91F /* ViewController.m */,
+				BB1019F5EBD212C5DF9FB91E /* ViewController.h */,
+				BB1019F5EBD212C5DF9FB91C /* AppDelegate.m */,
+				BB1019F5EBD212C5DF9FB91B /* AppDelegate.h */,
+				BB1019F5EBD212C5DF9FB913 /* Supporting Files */,
+			);
+			path = ColorCube;
+			sourceTree = "<group>";
+		};
+		BB1019F5EBD212C5DF9FB913 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB1019F5EBD212C5DF9FB91A /* ColorCube-Prefix.pch */,
+				BB1019F5EBD212C5DF9FB918 /* main.m */,
+				BB1019F5EBD212C5DF9FB916 /* InfoPlist.strings */,
+				BB1019F5EBD212C5DF9FB914 /* ColorCube-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB1019F5EBD212C5DF9FB924 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB1019F5EBD212C5DF9FB925 /* test@2x.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB1019F5EBD212C5DF9FB904 /* ColorCube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1019F5EBD212C5DF9FB905 /* Build configuration list for PBXNativeTarget "ColorCube" */;
+			buildPhases = (
+				BB1019F5EBD212C5DF9FB908 /* Sources */,
+				BB1019F5EBD212C5DF9FB909 /* Frameworks */,
+				BB1019F5EBD212C5DF9FB90A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorCube;
+			productName = ColorCube;
+			productReference = BB1019F5EBD212C5DF9FB903 /* ColorCube.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB1019F5EBD212C5DF9FB8FD /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = BB1019F5EBD212C5DF9FB8FE /* Build configuration list for PBXProject "ColorCube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB1019F5EBD212C5DF9FB8FF;
+			productRefGroup = BB1019F5EBD212C5DF9FB900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB1019F5EBD212C5DF9FB904 /* ColorCube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB1019F5EBD212C5DF9FB90A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1019F5EBD212C5DF9FB917 /* InfoPlist.strings in Resources */,
+				BB1019F5EBD212C5DF9FB923 /* ViewController.xib in Resources */,
+				BB1019F5EBD212C5DF9FB926 /* test@2x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB1019F5EBD212C5DF9FB908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1019F5EBD212C5DF9FB919 /* main.m in Sources */,
+				BB1019F5EBD212C5DF9FB91D /* AppDelegate.m in Sources */,
+				BB1019F5EBD212C5DF9FB920 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB1019F5EBD212C5DF9FB916 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB1019F5EBD212C5DF9FB915 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB1019F5EBD212C5DF9FB922 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB1019F5EBD212C5DF9FB921 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB1019F5EBD212C5DF9FB901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB1019F5EBD212C5DF9FB902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB1019F5EBD212C5DF9FB906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorCube/ColorCube-Prefix.pch";
+				INFOPLIST_FILE = "ColorCube/ColorCube-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BB1019F5EBD212C5DF9FB907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorCube/ColorCube-Prefix.pch";
+				INFOPLIST_FILE = "ColorCube/ColorCube-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB1019F5EBD212C5DF9FB8FE /* Build configuration list for PBXProject "ColorCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1019F5EBD212C5DF9FB901 /* Release */,
+				BB1019F5EBD212C5DF9FB902 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1019F5EBD212C5DF9FB905 /* Build configuration list for PBXNativeTarget "ColorCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1019F5EBD212C5DF9FB906 /* Release */,
+				BB1019F5EBD212C5DF9FB907 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB1019F5EBD212C5DF9FB8FD /* Project object */;
+}
